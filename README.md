@@ -1,1 +1,1 @@
-# rishika_thotakuri
+# Rishika_thotakuri
