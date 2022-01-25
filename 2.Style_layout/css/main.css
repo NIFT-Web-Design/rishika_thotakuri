@@ -1,0 +1,61 @@
+header {
+    background-color: #2a2a2a;
+    position: relative;
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,.5);
+  }
+
+header > div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px
+}
+
+header img {
+  margin: 16px 0px
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  text-transform: uppercase;
+  color: #d4d4d4;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px 15px;
+  border-radius: 2px;
+  transition: all .3s;
+}
+
+nav a :last-of-type {
+  color: #FDB530;
+}
+
+header nav a:hover {
+  color: white;
+  }
+
+nav a.blueBox {
+  background-color: #107698;
+  color: white;
+}
+
+#firstHeading {
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+  text-align: center;
+  height: 50px;
+  padding: 70px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 300;
+  text-shadow: 1px 2px 2px black;
+}
