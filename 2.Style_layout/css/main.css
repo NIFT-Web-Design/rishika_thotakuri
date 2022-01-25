@@ -1,3 +1,14 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+    line-height: 1.4;
+    color: #7f969e;
+}
+
 header {
     background-color: #2a2a2a;
     position: relative;
@@ -31,7 +42,7 @@ header nav a {
   transition: all .3s;
 }
 
-nav a :last-of-type {
+nav a:last-of-type {
   color: #FDB530;
 }
 
@@ -58,4 +69,110 @@ h1 {
   color: white;
   font-weight: 300;
   text-shadow: 1px 2px 2px black;
+}
+
+section.subFirstHeading {
+  background-color: white;
+  padding: 54px 0;
+}
+
+section.subFirstHeading.greyBox {
+  background-color: #EDEff3;
+}
+
+section.subFirstHeading h2 {
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  color: #0a465b;
+  margin-bottom: 32px;
+}
+
+section.subFirstHeading > p {
+  text-align: center;
+  font-size: 18px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+section.subFirstHeading p span.orangeText {
+  color: orange;
+}
+
+section.headMultipleBox div.applyFlex {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+section.headMultipleBox article {
+  width: 260px;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%);
+  background-color: white;
+}
+
+section.headMultipleBox article h3 {
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  background-color: #107698;
+  padding: 0 16px;
+  text-transform: uppercase;
+  text-align: center;
+  min-height: 110px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  font-variant: all-small-caps;
+}
+
+section.headMultipleBox article p {
+  padding: 24px 20px;
+  box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+  border-top: 5px solid #d1d1d0;
+}
+
+section.nonMultipleBox {
+  background-color: white;
+}
+
+section.nonMultipleBox div.applyFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1150px;
+  gap: 32px;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+section.nonMultipleBox article {
+  width:350px;
+  margin-bottom: 32px;
+}
+
+section.nonMultipleBox article h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 2px solid #FDB530;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #0a465b;
+  letter-spacing: .5px;
+}
+
+section.nonMultipleBox article p {
+  text-align: center;
+  padding-bottom: 8px; 
 }
