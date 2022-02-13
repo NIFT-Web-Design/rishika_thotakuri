@@ -19,7 +19,7 @@ body {
 #rightContainer {
   width: 298px;
   background-color: #EBF6F7;
-  padding-top: 220px;
+  padding-top: 132px; 
   padding-bottom: 40px;
   padding-left: 30px;
   padding-right: 5px;
@@ -71,4 +71,13 @@ section p {
 h3 {
   font-size: 14px;
   font-weight: 400;
+}
+
+div{
+  padding-left: 65px;
+}
+
+div img{
+  border-radius: 50%;
+  border: 2px solid #231F20;
 }
