@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#maincontainer {
+  width: 596px;
+  margin: 200px auto;
+  display: flex;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+
+#leftContainer {
+  padding-top: 120px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+#rightContainer {
+  width: 298px;
+  background-color: #EBF6F7;
+  padding-top: 220px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+
+#rightContainer section {
+  padding: 10px 5px;
+}
+
+#leftContainer section {
+  padding: 10px 5px;
+}
+
+section {
+  width: 290px;
+}
+
+section h1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #696164;
+  padding: 7px 0;
+}
+
+section p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #231F20;
+  line-height: 17px;
+}
+
+#main {
+  position: absolute;
+  left: 653px;
+  top: 250px;
+}
+
+#main h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+#main h2 {
+  font-size: 18px;
+  font-weight: 200;
+  padding: 0 0 0 63px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
