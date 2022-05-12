@@ -1,92 +1,87 @@
 
-main{
+main {
   background-color: #D0D348;
 }
 
-
-
-
 header {
-    background-color: #FFFEFE;
-    position: relative;
+  background-color: #FFFEFE;
+  position: relative;
 }
 
-
-header > section{
+header>section {
   margin: auto;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 1440px;
 }
 
-#logo{
+#logo {
   margin-top: 5px;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
 }
 
-.sideparts{
+.sideparts {
   margin-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
 }
 
-main div{
-  position: relative;  
+main div {
+  position: relative;
   height: 888px;
-  }
+}
 
-main section{
+main section {
   background-color: #D0D348;
   height: 1024px;
 }
 
-#start{
-  justify-content:center;
+#start {
+  justify-content: center;
   text-align: center;
   padding-bottom: 10px;
 }
 
-h3{
+h3 {
   weight: 400;
   font-size: 64px;
-  margin:20px;
-
+  margin: 20px;
 }
-h3 p{
+
+h3 p {
   margin-bottom: 20px;
 }
 
-p{
+p {
   weight: 200;
   font-size: 24px;
   padding-bottom: 25px;
 }
 
-#ball1{
+#ball1 {
   margin: 0 100px;
 }
 
-#ball1 img{
+#ball1 img {
   padding-right: 10px;
-margin-left: 35px;
-
+  margin-left: 35px;
 }
 
-.ball2{
-    font-size: 24px;
-    justify-content: center;
-    padding: 0 250px;
-    line-height: 1.4;
+.ball2 {
+  font-size: 24px;
+  justify-content: center;
+  padding: 0 250px;
+  line-height: 1.4;
 }
 
-.pencil1{
+.pencil1 {
   text-align: center;
 }
 
 /* .ball2 img{ */
-  /* margin-left: 500px;
+/* margin-left: 500px;
   margin-top: 35px;
 } */
