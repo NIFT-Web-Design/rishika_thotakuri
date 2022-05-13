@@ -31,6 +31,7 @@ header section {
 main div {
   position: relative;
   height: 888px;
+  width: auto; 
 }
 
 main section {
